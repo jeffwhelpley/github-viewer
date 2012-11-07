@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceec9d44-ab81-4ac0-95bd-7b673219c677" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\appinit.js" afterPath="$PROJECT_DIR$/client/app.init.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\config\main.config.js" afterPath="$PROJECT_DIR$/client/config/main.config.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\framework\mesh.application.js" afterPath="$PROJECT_DIR$/client/framework/mesh.application.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\libs\backbone.js" afterPath="$PROJECT_DIR$/client/libs/backbone.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\libs\jquery.js" afterPath="$PROJECT_DIR$/client/libs/jquery.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\libs\require.js" afterPath="$PROJECT_DIR$/client/libs/require.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\libs\require.text.js" afterPath="$PROJECT_DIR$/client/libs/require.text.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\libs\underscore.js" afterPath="$PROJECT_DIR$/client/libs/underscore.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\models\issue.collection.js" afterPath="$PROJECT_DIR$/client/models/issue.collection.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\models\issue.model.js" afterPath="$PROJECT_DIR$/client/models/issue.model.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\app\routers\main.router.js" afterPath="$PROJECT_DIR$/client/routers/main.router.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\assets\css\base.styles.less" afterPath="$PROJECT_DIR$/server/public/css/base.styles.less" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\assets\css\bootstrap.css" afterPath="$PROJECT_DIR$/server/public/css/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\assets\css\gv-min.css" afterPath="$PROJECT_DIR$/server/public/css/gv-min.css" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\assets\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/server/public/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\assets\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/server/public/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\index.html" afterPath="$PROJECT_DIR$/server/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/github-viewer.iml" afterPath="$PROJECT_DIR$/.idea/github-viewer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt.js" afterPath="$PROJECT_DIR$/grunt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/index.html" afterPath="$PROJECT_DIR$/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/spec/issue.model.spec.js" afterPath="$PROJECT_DIR$/tests/spec/issue.model.spec.js" />
     </list>
     <ignored path="github-viewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,10 +44,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="issue.model.spec.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/spec/issue.model.spec.js">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="338" selection-end="338" vertical-scroll-proportion="0.16242038">
+            <state line="5" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="0.11643836">
               <folding />
             </state>
           </provider>
@@ -44,30 +66,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/routers/main.router.js" />
-        <option value="$PROJECT_DIR$/app/framework/mesh.application.js" />
-        <option value="$PROJECT_DIR$/app/config/main.config.js" />
-        <option value="$PROJECT_DIR$/tests/spec/IssuesSpec.js" />
-        <option value="$PROJECT_DIR$/app/appinit.js" />
-        <option value="$PROJECT_DIR$/tests/SpecRunner.js" />
-        <option value="$PROJECT_DIR$/tests/spec/IssueModelSpec.js" />
-        <option value="$PROJECT_DIR$/tests/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/tests/specrunner.html" />
         <option value="$PROJECT_DIR$/grunt.js" />
+        <option value="$PROJECT_DIR$/server/public/css/gv-min.css" />
+        <option value="$PROJECT_DIR$/server/routes/index.js" />
+        <option value="$PROJECT_DIR$/server/public/css/base.styles.less" />
+        <option value="$PROJECT_DIR$/runserver.js" />
+        <option value="$PROJECT_DIR$/server/views/index.ejs" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.view.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.region.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.model.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.collection.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.layout.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.application.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.model.cache.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.region.manager.js" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.event.aggregator.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/tests/specrunner.js" />
-        <option value="$PROJECT_DIR$/tests/index.html" />
-        <option value="$PROJECT_DIR$/app/models/issue.model.js" />
-        <option value="$PROJECT_DIR$/tests/spec/issue.model.spec.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="2064" />
-    <option name="height" value="1128" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -138,11 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,61 +174,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github-viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,10 +188,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\github-viewer" />
+      <recent name="C:\GitHub\github-viewer\build" />
+      <recent name="C:\GitHub\github-viewer\server\views" />
+      <recent name="C:\GitHub\github-viewer\server" />
       <recent name="C:\GitHub\github-viewer\assets\css" />
     </key>
   </component>
@@ -235,9 +208,12 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -247,31 +223,32 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="ceec9d44-ab81-4ac0-95bd-7b673219c677" name="Default" comment="" />
       <created>1352057679307</created>
       <updated>1352057679307</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24987654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18262523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -324,119 +301,121 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/gv-min.css">
+    <entry file="file://$PROJECT_DIR$/client/views/issue.list/issue.list.styles.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/base.styles.less">
+    <entry file="file://$PROJECT_DIR$/runserver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="60" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/require.js">
+    <entry file="file://$PROJECT_DIR$/server/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/issue.collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routers/main.router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/framework/mesh.application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/main.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="67" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/appinit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/lib/jasmine-1.2.0/jasmine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2529" column="0" selection-start="68641" selection-end="68641" vertical-scroll-proportion="2.043057">
+        <state line="65" column="43" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-26.807692">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grunt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="59" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="23" column="41" selection-start="765" selection-end="765" vertical-scroll-proportion="0.53561646">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="385" selection-end="385" vertical-scroll-proportion="0.34931508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20958903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.25616437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13972603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.model.cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.region.manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="29" selection-end="29" vertical-scroll-proportion="0.02328767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework/mesh.event.aggregator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02328767">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="105" selection-end="153" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/specrunner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="122" selection-end="122" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/issue.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="856" selection-end="856" vertical-scroll-proportion="0.46921444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/spec/issue.model.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="338" selection-end="338" vertical-scroll-proportion="0.16242038">
+        <state line="5" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="0.11643836">
           <folding />
         </state>
       </provider>

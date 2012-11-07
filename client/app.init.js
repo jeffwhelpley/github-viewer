@@ -1,5 +1,5 @@
 /**
- * appinit
+ * app.init
  *
  * This is the entry point into the application
  */
