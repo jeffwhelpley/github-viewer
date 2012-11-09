@@ -4,11 +4,14 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
+        clean: {
+            css : { dirs: [ "build" ] }
+        },
         less: {
             all: {
                 files: {
-                    'assets/css/base.styles.css': 'assets/css/base.styles.less',
-                    'build/*.css': 'app/**/*.less'
+                    'server/public/css/base.styles.css': 'server/public/css/base.styles.less',
+                    'build/*.css': 'client/**/*.less'
                 },
                 options: {
                     yuicompress: true
@@ -18,9 +21,9 @@ module.exports = function(grunt) {
         mincss: {
             compress: {
                 files: {
-                    "assets/css/mesh-min.css": [
-                        "assets/css/bootstrap.css",
-                        "assets/css/base.styles.css",
+                    "server/public/css/gv-min.css": [
+                        "server/public/css/bootstrap.css",
+                        "server/public/css/base.styles.css",
                         "build/app/**/*.css"
                     ]
                 }
@@ -31,10 +34,11 @@ module.exports = function(grunt) {
         }
     });
 
+    grunt.loadNpmTasks('grunt-cleanx');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-mincss');
     grunt.loadNpmTasks('grunt-jasmine-task');
 
-    grunt.registerTask('default', 'less mincss');
+    grunt.registerTask('default', 'clean less mincss clean');
 
 };

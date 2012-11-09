@@ -1,5 +1,5 @@
 /**
- * appinit
+ * app.init
  *
  * This is the entry point into the application
  */
@@ -25,8 +25,8 @@
 
     // fire up the app
     require(['backbone', 'framework/mesh.application', 'routers/main.router', 'config/main.config'],
-        function (Backbone, App, MainRouter, config) {
-            window.thisapp = new App(config);
+        function (Backbone, App, MainRouter, Config) {
+            window.thisapp = new App(Config);
             thisapp.router = new MainRouter();
             Backbone.history.start();
         });
