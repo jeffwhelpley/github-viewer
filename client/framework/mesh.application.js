@@ -3,15 +3,14 @@
  */
 define([
     'backbone',
-    'framework/mesh.sync',
     'framework/mesh.region.manager',
     'framework/mesh.event.aggregator',
     'framework/mesh.model.cache'
-], function (Backbone, ApiSync, RegionManager, EventAggregator, ModelCache) {
+], function (Backbone, RegionManager, EventAggregator, ModelCache) {
     "use strict";
 
     return function (config) {
-        var apiSync, err;
+        var err;
 
         // make sure config passed in is valid
         if (!config) {
@@ -26,18 +25,7 @@ define([
         this.vent = new EventAggregator();
         this.cache = new ModelCache();
         this.config = config;
-        this.token = {
-            user:   this.config.user,
-            value:  this.config.token
-        };
 
-        // override the default way to communicate to the server
-        apiSync = new ApiSync({
-            apiUrl:         this.config.apiUrl,
-            apiVersion:     this.config.apiVersion,
-            token:          this.token
-        });
-        _.bindAll(apiSync);
-        Backbone.sync = apiSync.sync;
+        // NOTE: router should be saved to this object when the application is initialized
     };
 });

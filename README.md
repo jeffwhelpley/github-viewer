@@ -23,3 +23,9 @@ Run instructions
 
 4. Open up your browser to http://localhost:3000
 
+
+
+https://github.com/mrchess/github-issues-viewer
+https://github.com/rails/rails/issues
+https://github.com/jeffwhelpley/github-viewer
+
