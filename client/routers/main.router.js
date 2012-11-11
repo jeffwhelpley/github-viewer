@@ -2,7 +2,7 @@
  * routers/main.router.router
  *
  * For this simple app, we just have one router with a couple views that all are displayed in the
- * main area
+ * main area. Even so, this router has become pretty bloated, so need to refactor with next iteration.
  */
 define([
     'backbone',
@@ -23,17 +23,17 @@ define([
         name: 'MainRouter',
 
         routes:{
-            '': 'default',
-            'issues/:pageNumber': 'default',
-            'issue/:issueNumber': 'issueDetails',
-            'view/:viewName': 'viewTester'
+            '':                     'issueList',        // show list of issues as default page
+            'issues/:pageNumber':   'issueList',        // show a particular page of issue list
+            'issue/:issueNumber':   'issueDetails',     // show the details for one issue
+            'view/:viewName':       'viewTester'        // this route helps during development on one individual view
         },
 
         /**
          * Show a list of up to 25 issues in a list
          * @param pageNumber the page number to display
          */
-        default: function(pageNumber) {
+        issueList: function(pageNumber) {
 
             var siteLayout, allIssues, issueCollection, paginationModel, i, page, nbrPages;
             siteLayout = thisapp.regions.show('body', new SiteLayout());
@@ -88,7 +88,7 @@ define([
         },
 
         /**
-         * So the details for a particular issue
+         * Show the details for a particular issue
          * @param issueNumber The identifier number for the issue
          */
         issueDetails: function(issueNumber) {
