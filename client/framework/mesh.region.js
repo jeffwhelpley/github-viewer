@@ -38,18 +38,22 @@ define(function () {
 
     // close the current view
     region.prototype.closeCurrentView = function () {
-        var view = this.currentView;
-        if (!view || view.isClosed) {
+        if (!this.currentView) {
             return;
         }
-        if (view.close) {
-            view.close();
+        if (this.currentView.close) {
+            this.currentView.close();
         }
         delete this.currentView;
     };
 
     // function to close an existing view and show a new view
     region.prototype.show = function (newView) {
+
+        // if the new view is exactly the same as the existing view, don't do anything
+        if(this.currentView && this.currentView.equals(newView)) {
+            return this.currentView;
+        }
 
         this.closeCurrentView();
 
@@ -60,11 +64,8 @@ define(function () {
         if (newView.onShow) {
             newView.onShow();
         }
-        if (this.onShow) {
-            this.onShow(newView);
-        }
 
-        this.currentView = newView;
+        return this.currentView = newView;
     };
 
     // refresh the current view if it exists

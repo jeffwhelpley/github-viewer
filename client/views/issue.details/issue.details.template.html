@@ -1,0 +1,35 @@
+<%
+var issue = data,
+    user = (issue.get('user') || {}),
+    labels = (issue.get('labels') || []);
+%>
+<div id="issue-details">
+    <div class="btn btn-large btn-primary" id="back-btn">&lt; Go Back To List</div>
+    <div class="container issue-frame">
+        <div class="row">
+            <div class="span2 issue-usercol">
+                <div class="issue-number">#<%= issue.get('number') %></div>
+                <img src="<%= issue.get('user').avatar_url %>" alt="<%= issue.get('user').login %>" />
+                <div class="issue-user"><%= issue.get('user').login %></div>
+            </div>
+            <div class="span10 issue-detailscol">
+
+                <% if(issue.get('state') === 'open') { %>
+                    <div class="issue-state green">OPEN</div>
+                <% } else { %>
+                    <div class="issue-state red">closed</div>
+                <% } %>
+
+                <h2><%= issue.get('title') %></h2>
+                <div class="issue-body">
+                    <%= helper.renderMarkdown(issue.get('body'), 140) %>
+                </div>
+                <div class="issue-labels">
+                    <% _.each(labels, function(label) { %>
+                    <div style="background-color: #<%= label.color %>"><%= label.name %></div>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceec9d44-ab81-4ac0-95bd-7b673219c677" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="C:\GitHub\github-viewer\client\framework\mesh.layout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\github-viewer\client\views\issue.list\issue.list.styles.less" afterPath="" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\index.html" afterPath="$PROJECT_DIR$/server/public/tests/index.html" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\lib\jasmine-1.2.0\MIT.LICENSE" afterPath="$PROJECT_DIR$/server/public/tests/lib/jasmine-1.2.0/MIT.LICENSE" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\lib\jasmine-1.2.0\jasmine-html.js" afterPath="$PROJECT_DIR$/server/public/tests/lib/jasmine-1.2.0/jasmine-html.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\lib\jasmine-1.2.0\jasmine.css" afterPath="$PROJECT_DIR$/server/public/tests/lib/jasmine-1.2.0/jasmine.css" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\lib\jasmine-1.2.0\jasmine.js" afterPath="$PROJECT_DIR$/server/public/tests/lib/jasmine-1.2.0/jasmine.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\lib\jasmine-1.2.0\jasmine_favicon.png" afterPath="$PROJECT_DIR$/server/public/tests/lib/jasmine-1.2.0/jasmine_favicon.png" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\spec\issue.model.spec.js" afterPath="$PROJECT_DIR$/server/public/tests/spec/issue.model.spec.js" />
+      <change type="MOVED" beforePath="C:\GitHub\github-viewer\tests\specrunner.js" afterPath="$PROJECT_DIR$/server/public/tests/specrunner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.init.js" afterPath="$PROJECT_DIR$/client/app.init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.application.js" afterPath="$PROJECT_DIR$/client/framework/mesh.application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.collection.js" afterPath="$PROJECT_DIR$/client/framework/mesh.collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.model.cache.js" afterPath="$PROJECT_DIR$/client/framework/mesh.model.cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.model.js" afterPath="$PROJECT_DIR$/client/framework/mesh.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.region.js" afterPath="$PROJECT_DIR$/client/framework/mesh.region.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.region.manager.js" afterPath="$PROJECT_DIR$/client/framework/mesh.region.manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework/mesh.view.js" afterPath="$PROJECT_DIR$/client/framework/mesh.view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/libs/backbone.js" afterPath="$PROJECT_DIR$/client/libs/backbone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/models/issue.collection.js" afterPath="$PROJECT_DIR$/client/models/issue.collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/models/issue.comment.collection.js" afterPath="$PROJECT_DIR$/client/models/issue.comment.collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/models/issue.comment.model.js" afterPath="$PROJECT_DIR$/client/models/issue.comment.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/models/issue.model.js" afterPath="$PROJECT_DIR$/client/models/issue.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/routers/main.router.js" afterPath="$PROJECT_DIR$/client/routers/main.router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt.js" afterPath="$PROJECT_DIR$/grunt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/css/base.styles.css" afterPath="$PROJECT_DIR$/server/public/css/base.styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/css/base.styles.less" afterPath="$PROJECT_DIR$/server/public/css/base.styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/css/gv-min.css" afterPath="$PROJECT_DIR$/server/public/css/gv-min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="$PROJECT_DIR$/server/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/index.ejs" afterPath="$PROJECT_DIR$/server/views/index.ejs" />
     </list>
     <ignored path="github-viewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,22 +66,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/server/public/css/base.styles.less" />
-        <option value="$PROJECT_DIR$/server/views/index.ejs" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.view.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.region.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.model.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.collection.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.layout.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.model.cache.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.region.manager.js" />
-        <option value="$PROJECT_DIR$/client/framework/mesh.event.aggregator.js" />
-        <option value="$PROJECT_DIR$/client/config/main.config.js" />
-        <option value="$PROJECT_DIR$/client/app.init.js" />
         <option value="$PROJECT_DIR$/client/framework/mesh.application.js" />
-        <option value="$PROJECT_DIR$/runserver.js" />
+        <option value="$PROJECT_DIR$/client/models/issue.collection.js" />
+        <option value="$PROJECT_DIR$/client/views/issue.pagination/issue.pagination.view.js" />
+        <option value="$PROJECT_DIR$/client/views/issue.pagination/issue.pagination.template.html" />
+        <option value="$PROJECT_DIR$/client/views/issue.list/issue.list.styles.less" />
+        <option value="$PROJECT_DIR$/client/framework/mesh.region.manager.js" />
+        <option value="$PROJECT_DIR$/client/models/issue.comment.collection.js" />
+        <option value="$PROJECT_DIR$/client/views/issue.comments/issue.comments.styles.less" />
+        <option value="$PROJECT_DIR$/client/views/issue.details/issue.details.styles.less" />
+        <option value="$PROJECT_DIR$/client/views/issue.list/issue.list.view.js" />
+        <option value="$PROJECT_DIR$/client/routers/main.router.js" />
+        <option value="$PROJECT_DIR$/client/views/issue.comments/issue.comments.template.html" />
+        <option value="$PROJECT_DIR$/client/views/issue.comments/issue.comments.view.js" />
+        <option value="$PROJECT_DIR$/client/views/layout.site/layout.site.template.html" />
+        <option value="$PROJECT_DIR$/client/views/layout.site/layout.site.styles.less" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -87,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -107,21 +138,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\github-viewer\server\public" />
+      <recent name="C:\GitHub\github-viewer\client\components" />
       <recent name="C:\GitHub\github-viewer" />
       <recent name="C:\GitHub\github-viewer\build" />
       <recent name="C:\GitHub\github-viewer\server\views" />
-      <recent name="C:\GitHub\github-viewer\server" />
-      <recent name="C:\GitHub\github-viewer\assets\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,6 +177,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ceec9d44-ab81-4ac0-95bd-7b673219c677" name="Default" comment="" />
@@ -230,88 +280,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.collection.js">
+    <entry file="file://$PROJECT_DIR$/client/views/issue.list/issue.list.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.25616437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13972603" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.model.cache.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" />
+        <state line="9" column="68" selection-start="357" selection-end="363" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/framework/mesh.region.manager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="29" selection-end="29" vertical-scroll-proportion="0.02328767" />
+        <state line="48" column="33" selection-start="1330" selection-end="1335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/config/main.config.js">
+    <entry file="file://$PROJECT_DIR$/client/views/issue.details/issue.details.data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.details/issue.details.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/issue.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/issue.comment.collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.list/issue.list.styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="98" selection-end="129" vertical-scroll-proportion="0.10828026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.comments/issue.comments.styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="0.1985138">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.details/issue.details.styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="109" selection-end="109" vertical-scroll-proportion="0.10828026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.list/issue.list.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="83" selection-start="2425" selection-end="2425" vertical-scroll-proportion="1.0467092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.comments/issue.comments.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="52" selection-start="339" selection-end="358" vertical-scroll-proportion="0.14847161">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/issue.comments/issue.comments.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="70" selection-start="873" selection-end="873" vertical-scroll-proportion="0.36093417">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/routers/main.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.event.aggregator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02328767" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="90" selection-start="918" selection-end="918" vertical-scroll-proportion="0.6520548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework/mesh.view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="175" selection-end="175" vertical-scroll-proportion="0.18630137" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runserver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="76" selection-start="698" selection-end="698" vertical-scroll-proportion="0.4890411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+        <state line="100" column="55" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grunt.js">
+    <entry file="file://$PROJECT_DIR$/client/views/layout.site/layout.site.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" />
+        <state line="4" column="49" selection-start="195" selection-end="195" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/client/views/layout.site/layout.site.styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="52" selection-start="945" selection-end="945" vertical-scroll-proportion="-9.153846" />
+        <state line="3" column="28" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="534" selection-end="534" vertical-scroll-proportion="0.53561646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="88" selection-end="88" vertical-scroll-proportion="0.25265393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.5233546">
+        <state line="26" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.46921444">
           <folding />
         </state>
       </provider>

@@ -1,9 +1,10 @@
-#issue-list
+#issue-details
 {
+  #back-btn { margin-top: 20px; }
   .issue-frame
   {
     width: 100%;
-    margin: 30px 0px 10px 0px;
+    margin: 30px 0px 30px 0px;
     padding: 0px;
     border: 1px solid #D4D4D4;
     -webkit-border-radius: 20px;
@@ -12,8 +13,6 @@
     -webkit-box-shadow:  5px 5px 5px 5px rgba(12, 12, 12, .5);
     box-shadow:  5px 5px 5px 5px rgba(12, 12, 12, .5);
   }
-
-  .issue-frame:hover { cursor: pointer; }
 
   .issue-usercol
   {
@@ -37,6 +36,9 @@
   .issue-detailscol
   {
     margin-left: 0px;
+    .issue-state { font-size: 1.8em; font-weight: bold; float: right; margin-top: 20px; }
+    .green { color: green; }
+    .red { color: red; }
     h2 { font-size: 1.8em; }
     .issue-body { clear: both; margin-bottom: 20px; }
     .issue-labels

@@ -25,7 +25,4 @@ Run instructions
 
 
 
-https://github.com/mrchess/github-issues-viewer
-https://github.com/rails/rails/issues
-https://github.com/jeffwhelpley/github-viewer
 

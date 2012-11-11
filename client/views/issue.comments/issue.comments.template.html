@@ -1,0 +1,22 @@
+<div id="issue-comments">
+    <div class="container">
+        <% _.each(data.models, function(comment) {
+            var user = (comment.get('user') || {});
+        %>
+            <div class="row">
+                <div class="span9 offset2 comment-frame">
+                    <div class="comment-usercol">
+                        <a href="https://github.com/<%= user.login %>" target="_blank">
+                            <img src="<%= user.avatar_url %>" alt="<%= user.login %>" />
+                            <div class="comment-user"><%= user.login %></div>
+                        </a>
+                    </div>
+                    <div class="comment-detailscol">
+                        <div class="comment-date"><%= helper.formatDate(comment.get('created_at')) %></div>
+                        <div class="comment-text"><%= helper.transformComments(comment.get('body')) %></div>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>

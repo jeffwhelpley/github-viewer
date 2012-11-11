@@ -6,66 +6,17 @@
 
     <!-- combined and minified css -->
     <link href="css/gv-min.css" rel="stylesheet">
-</head>
-<body>
-
-    <!-- header -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="nav-collapse collapse pull-right">
-                    <ul class="nav">
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hero-unit">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                        <h1>GitHub Issue Viewer</h1>
-                        <p>Currently Viewing: Rails Issues</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- this is where our content will be loaded in -->
-    <div id="main">
-
-        <!-- put something in the main content for the user to see while the page loads -->
-        <img id="initial-image" src="img/loading.gif" alt="Page Loading" />
-
-    </div>
-
-    <!-- footer -->
-    <div class="navbar navbar-inverse navbar-fixed-bottom">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="row">
-                    <div class="span12" id="footer">
-                        <a href="#privacy">Privacy Policy</a> |
-                        <a href="#terms">Terms &amp; Conditions</a> |
-                        <a href="#contact">Contact Us</a> |
-                        2012 JW Inc, All rights reserved
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- use this script when debugging locally before we combine and minify -->
     <script data-main="app.init" src="libs/require.js"></script>
 
     <!-- use this script for production after js combined and minified -->
-    <!-- <script src="server/public/js/gv-min.js"></script> -->
+    <!-- <script src="js/gv-min.js"></script> -->
+
+</head>
+<body>
+
+    <!-- all page content will be pulled in from by the client code -->
+
 </body>
 </html>

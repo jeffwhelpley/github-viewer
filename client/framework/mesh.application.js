@@ -4,9 +4,8 @@
 define([
     'backbone',
     'framework/mesh.region.manager',
-    'framework/mesh.event.aggregator',
     'framework/mesh.model.cache'
-], function (Backbone, RegionManager, EventAggregator, ModelCache) {
+], function (Backbone, RegionManager, ModelCache) {
     "use strict";
 
     return function (config) {
@@ -22,7 +21,6 @@ define([
         // this values will be available through the application
         this.name = "MeshApplication";
         this.regions = new RegionManager();
-        this.vent = new EventAggregator();
         this.cache = new ModelCache();
         this.config = config;
 

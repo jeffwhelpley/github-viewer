@@ -6,9 +6,10 @@
         paths:{
             // many people have the google jquery file cached, so try to use that
             jquery:['http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min', '../app/lib/jquery'],
-            underscore:'../app/libs/underscore',
-            backbone:'../app/libs/backbone',
-            text:'../app/libs/require.text'
+            underscore:'../libs/underscore',
+            backbone:'../libs/backbone',
+            text:'../libs/require.text',
+            issueModel: '../models/issue.model'
         },
         // ensure libraries loaded in the right order
         shim:{

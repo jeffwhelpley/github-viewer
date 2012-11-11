@@ -1,0 +1,38 @@
+<%
+var nbrPages = data.get('numberOfPages'),
+    currentPage = data.get('currentPage'),
+    startPage = Math.floor(currentPage / 10) * 10;
+%>
+<div class="pagination pagination-large pagination-centered">
+    <ul>
+        <% if(currentPage > 1) { %>
+            <li><a href="#issues/<%= (currentPage - 1) %>">Prev</a></li>
+        <% } else { %>
+            <li class="disabled"><a href="javascript:void(0)">Prev</a></li>
+        <% } %>
+
+        <% if(startPage > 0) { %>
+            <li><a href="#issues/1">1</a></li>
+            <li><a href="#issues/<%= (startPage - 1) %>">...</a></li>
+        <% } %>
+
+        <% for(var i = startPage; i < startPage + 10 && i < nbrPages; i++) { %>
+            <% if((i+1) == currentPage) { %>
+                <li class="active"><a href="#issues/<%= (i + 1) %>"><%= (i + 1) %></a></li>
+            <% } else { %>
+                <li><a href="#issues/<%= (i + 1) %>"><%= (i + 1) %></a></li>
+            <% } %>
+        <% } %>
+
+        <% if(i < nbrPages) { %>
+            <li><a href="#issues/<%= i %>">...</a></li>
+            <li><a href="#issues/<%= nbrPages %>"><%= nbrPages %></a></li>
+        <% } %>
+
+        <% if(currentPage < nbrPages) { %>
+            <li><a href="#issues/<%= (parseInt(currentPage) + 1) %>">Next</a></li>
+        <% } else { %>
+            <li class="disabled"><a href="javascript:void(0)">Next</a></li>
+        <% } %>
+    </ul>
+</div>

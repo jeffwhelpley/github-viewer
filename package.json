@@ -1,5 +1,7 @@
 {
     "name": "GitHubViewer",
+    "description": "A simple backbone app for looking through GitHub issues",
+    "author": "Jeff Whelpley <jeff@jeffwhelpley.com>",
     "version": "0.0.1",
     "private": true,
     "scripts": {
@@ -10,7 +12,7 @@
         "ejs": "*",
         "less-middleware": "*",
         "grunt": "*",
-        "grunt-cleanx": "*",
+        "grunt-contrib-clean": "*",
         "grunt-contrib-less": "*",
         "grunt-contrib-mincss": "*",
         "grunt-jasmine-task": "*"

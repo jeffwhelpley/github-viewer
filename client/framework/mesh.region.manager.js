@@ -8,7 +8,7 @@ define(['framework/mesh.region'], function (Region) {
 
     var regionManager = function () {
         this.name = 'MeshRegionManager';
-        this.regions = {};
+        this.regionMap = {};
     };
 
     /**
@@ -18,35 +18,55 @@ define(['framework/mesh.region'], function (Region) {
      *
      * @param domSelector A jquery selector such as #main
      * @param view Either a MeshView or MeshLayout
+     * @param parentView A reference to the parent view if one exists
      */
-    regionManager.prototype.show = function(domSelector, view) {
-        var subView;
+    regionManager.prototype.show = function(domSelector, view, parentView) {
+        var subview;
 
         // if no region currently exists, add one
-        if(!this.regions[domSelector]) {
-            this.regions[domSelector] = new Region({el:domSelector});
+        if(!this.regionMap[domSelector]) {
+            this.regionMap[domSelector] = new Region({el:domSelector});
         }
 
-        // if a layout is being displayed, we need to close all other regions that are under that layout
-        if(view.isLayout) {
-            for(var domKey in this.regions) {
+        // display the view
+        view = this.regionMap[domSelector].show(view);
 
-                // skip the region that is currently being rendered
-                if(domKey == domSelector) continue;
-
-                subView =  this.regions[domKey].currentView;
-
-                // use jquery to determine if subView nested under view
-                if($(view.el + ' ' + subView.el).length) {
-                    this.regions[domKey].closeCurrentView();
-                    delete this.regions[domKey];
-                }
+        // if there is a parentView, add to the parent's subviews
+        if(parentView && parentView !== view) {
+            if(!parentView.subviews) {
+                parentView.subviews = [];
             }
+
+            parentView.subviews.push(view);
         }
 
-        // finally display the view
-        this.regions[domSelector].show(view);
+        return view;
     };
+
+    /**
+     * Empty a region
+     */
+    regionManager.prototype.empty = function(domSelector) {
+        var region = this.regionMap[domSelector];
+        if(region && region.currentView) {
+            region.currentView.close();
+            this.remove(region.currentView);
+        }
+    },
+
+    /**
+     * Remove a view from the region map
+     * @param view
+     */
+    regionManager.prototype.remove = function(view) {
+        var domSelector = view.el,
+            region = this.regionMap[domSelector];
+
+        // remove the region from the map
+        if(region && region.currentView == view) {
+            delete this.regionMap[domSelector];
+        }
+    }
 
     return regionManager;
 });

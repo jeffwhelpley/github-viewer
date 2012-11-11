@@ -11,9 +11,13 @@ define(function () {
         this.modelLookup = {};
     };
 
-    modelCache.prototype.addModel = function(model) {
-        this.modelLookup[model.name] = model;
+    modelCache.prototype.set = function(key, model) {
+        this.modelLookup[key] = model;
     };
+
+    modelCache.prototype.get = function(key) {
+        return this.modelLookup[key];
+    }
 
     return modelCache;
 });

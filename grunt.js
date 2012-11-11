@@ -4,9 +4,7 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        clean: {
-            css : { dirs: [ "build" ] }
-        },
+        clean: ["build"],
         less: {
             all: {
                 files: {
@@ -24,7 +22,7 @@ module.exports = function(grunt) {
                     "server/public/css/gv-min.css": [
                         "server/public/css/bootstrap.css",
                         "server/public/css/base.styles.css",
-                        "build/app/**/*.css"
+                        "build/**/*.css"
                     ]
                 }
             }
@@ -34,7 +32,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-cleanx');
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-mincss');
     grunt.loadNpmTasks('grunt-jasmine-task');

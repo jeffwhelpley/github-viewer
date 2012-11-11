@@ -12,13 +12,17 @@
             jquery:         ['http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min', 'lib/jquery'],
             underscore:     'libs/underscore',
             backbone:       'libs/backbone',
-            text:           'libs/require.text'
+            text:           'libs/require.text',
+            showdown:       'libs/showdown',
+            showdownGit:    'libs/showdown.github'
         },
         // ensure libraries loaded in the right order
         shim:{
-            underscore: { exports: '_' },
-            jquery:     { exports: '$' },
-            backbone:   { exports: 'Backbone', deps:['jquery', 'underscore'] }
+            underscore:     { exports: '_' },
+            jquery:         { exports: '$' },
+            backbone:       { exports: 'Backbone', deps:['jquery', 'underscore'] },
+            showdown:       { exports: 'Showdown' },
+            showdownGit:    { deps: ['showdown'] }
         },
         deps:['jquery', 'underscore', 'backbone']
     });
